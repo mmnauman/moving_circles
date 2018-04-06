@@ -103,8 +103,8 @@ for(var i = 0; i < 300; i++){
 let radius = Math.random() * 10 + 1;  
 let xp = Math.random() * (windowWidth - radius * 2 ) + radius;
 let yp = Math.random() * (windowHeight - radius * 2 ) + radius;
-let xv = Math.random() - 0.5 * 8;
-let yv = Math.random() - 0.5 * 8;
+let xv = Math.random() - 0.5;
+let yv = Math.random() - 0.5;
 
 circleContainer.push(new Circle(xp,yp, radius, xv, yv));
 }    
