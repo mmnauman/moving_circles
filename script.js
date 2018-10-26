@@ -99,7 +99,7 @@ function Circle(xp,yp,r,xv,yv){
     
 let circleContainer = [];
     
-for(var i = 0; i < 300; i++){
+for(var i = 0; i < 200; i++){
 let radius = Math.random() * 10 + 1;  
 let xp = Math.random() * (windowWidth - radius * 2 ) + radius;
 let yp = Math.random() * (windowHeight - radius * 2 ) + radius;
